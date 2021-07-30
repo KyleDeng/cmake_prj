@@ -4,3 +4,4 @@ project(CmakePrj)
 set(TOP_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
 
 add_subdirectory(hal)
+add_subdirectory(sdk)
