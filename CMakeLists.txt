@@ -8,5 +8,7 @@ set(TOP_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
 set(HAL_INC)
 
 add_subdirectory(hal)
+include_directories(${HAL_INC})
+
 add_subdirectory(sdk)
 
