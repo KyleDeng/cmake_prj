@@ -5,7 +5,7 @@ set(LOCAL_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 get_filename_component(MODULE_NAME ${LOCAL_DIR} NAME)
 
 file(GLOB_RECURSE LOCAL_SRC ${LOCAL_DIR}/src/*.c)
-message(local:${LOCAL_SRC})
+# message(local:${LOCAL_SRC})
 
 set(LOCAL_INC "${LOCAL_DIR}/include")
 

@@ -12,10 +12,11 @@ add_subdirectory(key)
 # message(src:${SDK_FILES_SRC})
 # message(inc:${SDK_FILES_INC})
 
-list(LENGTH SDK_FILES_SRC LEN_SRC)
-list(LENGTH SDK_FILES_INC LEN_INC)
+# list(LENGTH SDK_FILES_SRC LEN_SRC)
+# list(LENGTH SDK_FILES_INC LEN_INC)
 # message(len_src:${LEN_SRC})
 # message(len_inc:${LEN_INC})
+set(SDK_INC ${SDK_FILES_INC} PARENT_SCOPE)
 
 add_library(sdk ${SDK_FILES_SRC})
 
