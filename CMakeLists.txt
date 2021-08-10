@@ -17,3 +17,5 @@ include_directories(${SDK_INC})
 include(apps/apps.cmake)
 message(debug:${APPS_DIR})
 
+execute_process(COMMAND echo hello world!)
+
